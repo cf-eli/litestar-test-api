@@ -5,7 +5,7 @@ echo "Attempt to start server"
 set -e
 
 
-trap "echo Killing background tasks...; kill 0" EXIT
+trap "echo This a test...; kill 0" EXIT
 
 
 
